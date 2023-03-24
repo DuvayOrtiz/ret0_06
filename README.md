@@ -187,16 +187,16 @@ print("la raiz cubica del menor es ", raiz(numeritos))
 El pip es un sistema instalador y de gestión de paquetes utilizado para paquetes de software de python.
 
 paquetes usuales: (segun google)
-+TensorFlow
-+Scikit-Learn
-+Numpy
-+Keras
-+PyTorch
-+LightGBM
-+Eli5
-+SciPy
-+Theano
-+Pandas
++ TensorFlow
++ Scikit-Learn
++ Numpy
++ Keras
++ PyTorch
++ LightGBM
++ Eli5
++ SciPy
++ Theano
++ Pandas
 
 Es facil instalar dichos paquetes unicamente se pone
 ```

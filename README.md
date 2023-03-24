@@ -6,7 +6,7 @@ haciendo esto antes de las 10 :O
 #### 1
 ejercicio de las masas y la fuerza entre ellas(se hizo en clase pero ahi está) 
 
-```code
+```ruby
 def calcularFuerza (m1:float, m2:float, G:float, r:float) -> float:    
   fuerzaEjercida = G*m1*m2/(r**2)
   return fuerzaEjercida
@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
 ```
 #### 2
-```code
+```ruby
 import math        #importo "math"
 def valorAbs(x:float):    
     return math.fabs(x)
@@ -52,7 +52,7 @@ if __name__ == "__main__":
 ```
 
 ### punto 01
-```
+```ruby
 import math
 Pi=math.pi
 def volumen(r1:float, r2:float, h:float): 
@@ -71,7 +71,7 @@ if __name__ == "__main__":
 
 
 ### punto 2
-```
+```ruby
 import math
 pi = math.pi
 def areaFig(a:float, b:float, r1:float, r2:float):
@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
 
 ### punto 3
-``` 
+```ruby
 #Ejerpollos
 def pollos(a:float, b:float, c:float):
     return (a*6)+(b*7)+(c)
@@ -105,7 +105,7 @@ if __name__ == "__main__":
     print("el peso de todas las aves en Kg es  " + str(numeroAves))
 ```
 ### punto 4
-```
+```ruby
 def vueltos(a:float, b:float, c:float):
     return (a*300)+(b*3300)+(c*350)
 if __name__ == "__main__":
@@ -123,7 +123,7 @@ if __name__ == "__main__":
         print("faltan ", abs(sobra (plata, vueltas)))
 ```
 ### punto 5
-```
+```ruby
 def interes(ci, i, nm):
     return ci*(1+i)**nm
 if __name__ == "__main__":
@@ -135,7 +135,7 @@ if __name__ == "__main__":
 
 ```
 ### punto 6
-```
+```ruby
 ---> en este codigo queria verificar si era necesario definir funcion principal.
 def contagiados(c:float, n:float):
     return c*(2**n)      
@@ -146,7 +146,7 @@ print("el numero de vagos contagiados es ", contagiados(c,n))
 
 ```
 ### el import
-```
+```ruby
 import  statistics
 def mediana(numeritos):
     return statistics.median(numeritos)
@@ -164,7 +164,7 @@ def raiz(numeritos):
 ```
 
 ### punto 7
-```
+```ruby
 from ejerci import*
 def promMul(numeritos):
     return (n1*n2*n3*n4*n5)**0.5
